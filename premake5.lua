@@ -54,7 +54,7 @@ project "GLFW"
         runtime "Debug"
         symbols "On"
     
-    filter {"configurations:Release", "configurations:Distribution"}
+    filter "configurations:Release or Distribution"
         runtime "Release"
         optimize "Speed"
     
